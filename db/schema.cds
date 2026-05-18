@@ -22,7 +22,7 @@ entity Risks : managed
     key ID : UUID
         @Core.Computed;
     miti : Association to one Mitigations;
-    title : String(100);
+    title : String(100) @title : 'Title';
     prio : String(5);
     description : String(100);
     impact : Integer;
