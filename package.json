@@ -42,7 +42,7 @@
         "kind": "mocked",
         "users": {
           "mahesh.sirsat@vaspp.com": {
-            "password": "Initial@1",
+           
             "roles": [
               "RiskManager"
             ]
